@@ -1,7 +1,7 @@
 
-## Backchannel Detection Repository
-This repository is for backchannel detection using Switchboard corpus.
-- Backchannel detection corpora
+## Backchannel Repository
+This repository is for backchannel using Switchboard corpus.
+- Backchannel corpora
   - Database: ([swbd](https://catalog.ldc.upenn.edu/LDC97S62))
   - Backchannel Label: ([backchannel](https://github.com/phiresky/backchannel-prediction/blob/master/data/utterance_is_backchannel.json))
 
@@ -11,7 +11,7 @@ This repository is for backchannel detection using Switchboard corpus.
   2. Put compiled Kaldi under espnet/tools
   3. Setup Python environment
   4. Install ESPnet
-- Run backchannel detection script
+- Run backchannel script
   1. Set ESPnet path (Modify {MAIN_ROOT} in path.sh (line 1))
   2. Set SWBD corpus path (Modify {datadir} in run.sh (line 47))
   3. Run run.sh
