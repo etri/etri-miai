@@ -21,16 +21,16 @@ Each data entry in the dataset consists of:
 
 ### Backchannel Categories
 1. Normal
-- **Continuer**
-- **Understanding**
+- Continuer
+- Understanding
 2. Empathetic
 - Empathetic Response
   - Assessment
-    - **Negative Surprise**
-    - **Positive Surprise**
-  - **Request Confirmation**
-- **Affirmative**
-3. **Non Backchannel**
+    - Negative Surprise
+    - Positive Surprise
+  - Request Confirmation
+- Affirmative
+3. Non Backchannel
 
 
 ## Usage Guidelines
