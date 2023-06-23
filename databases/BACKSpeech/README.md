@@ -67,3 +67,8 @@ If you use this dataset in your research, please cite it as follows:
     howpublished={\url{https://github.com/etri/etri-miai}},
 }
 ```
+
+## Contact
+
+For any questions or concerns related to this dataset, please reach out to us by opening an issue on this repository or by contacting us at [seunghi@etri.re.kr](mailto:seunghi@etri.re.kr).
+
