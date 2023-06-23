@@ -1,5 +1,5 @@
 
-# Backchannel Annotation Corpus in Korean Speech (BACKSpeech)
+# BACKSpeech: Backchannel Annotation Corpus in Korean Speech
 
 ## Introduction
 We introduce the Backchannel Annotation Corpus in Korean Speech. This corpus has been collected from a wide range of YouTube videos containing dialogues of two or three participants and is intended for researchers and developers working on Backchannel Prediction (BCP) and related fields. 
