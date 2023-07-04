@@ -9,9 +9,9 @@ This corpus is the first Backchannel Prediction corpus available in Korean. We h
 
 ## Dataset Description
 
-The dataset comprises 31 audio files and corresponding transcriptions in CSV format.
+The dataset comprises 59 audio files and corresponding transcriptions in CSV format.
 Each audio file is stored in the following format: 16000Hz, 16bit, mono, RIFF WAV header.
-The dataset contains approximately 9,878 files, with a total audio duration of about 12 hours.
+The dataset contains approximately 19,230 segments, with a total audio duration of about 22 hours.
 
 
 ### Data Format
