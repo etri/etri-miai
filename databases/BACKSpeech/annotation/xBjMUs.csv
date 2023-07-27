@@ -11,7 +11,7 @@
 39.361	47.796	speaker#B	그쵸. 김성수의 n/ /os2 성과 /oe 유지은의 /os1 지 이렇게 /oe 이름 /os2 한글자씩을 따서 /oe /os2 성지순례인데 /oe 우리가 뭘 순례하는 건가요?
 41.056	41.461	speaker#A	/os2 성 /oe
 42.221	42.771	speaker#A	/os1 지 /oe
-44.221	44.611	speaker#A	/os1 [어.(BC/continuer)] /oe
+44.221	44.611	speaker#A	/os2 [어.(BC/continuer)] /oe
 45.931	46.326	speaker#A	/os2 [그렇죠.(BC/affirmative)] /oe
 47.944	51.735	speaker#A	김성수를 화나게 한 뉴스들을 가지고 자 이제 /os2 한번 순례를 /oe 해보겠다.
 50.359	51.074	speaker#B	/os2 [어.(BC/continuer)] /oe
@@ -26,7 +26,7 @@
 69.265	69.484	speaker#A	[예.(BC/continuer)]
 69.484	71.107	speaker#B	화를 낼 거는 화를 내고,
 71.107	71.488	speaker#A	/os2 그렇죠. /oe
-71.364	74.014	speaker#B	/os2 그럼 더 /oe 훨씬 건강이 좋아지시라 생각이 듭니다.
+71.363	74.013	speaker#B	/os2 그럼 더 /oe 훨씬 건강이 /os2 좋아지시라 생각이 듭니다. /oe
 72.666	80.095	speaker#A	/os2 맞습니다. 그 저는 /oe 또 대신 화를 내준다고 해서 /os1 성수대로의 /oe 저/ 이/ /os1 제목이 /oe 대신 화난, 화낸다.
 75.826	76.191	speaker#B	/os1 [음.(BC/continuer)] /oe
 77.445	78.606	speaker#B	/os1 [아. 네.(BC/understanding)] /oe
@@ -55,8 +55,9 @@
 130.288	130.898	speaker#B	/os1 [어.(BC/continuer)] /oe
 131.963	132.828	speaker#B	/os2 [맞습니다.(BC/affirmative)] /oe
 133.933	134.298	speaker#B	/os2 [네.(BC/continuer)] /oe
-134.565	143.355	speaker#A	그래서 제가 이제/ (RM)/(알엠)을 하하하하하 /os1 아하하하하하하. 네. /oe
-139.190	152.854	speaker#B	/os1 아미들 몰려오는 소리가 들리네요. /oe /os1 아이 근데 왜냐하면, 이번 /oe 주는 사실 이 방탄소년단 (BTS)/(비티에스)를 /os2 뺴놓고는 예술, /oe 문화, 대중문화에 대해서 이야기를 할 수 없는 한 주기 때문에, 저희가 방탄소년단의 리더죠.
+134.555	136.925	speaker#A	그래서 제가 이제/ (RM)/(알엠)을 n/
+139.190	152.854	speaker#B	n/ 아미들 몰려오는 소리가 들리네요. /os1 아이 근데 왜냐하면, 이번 /oe 주는 사실 이 방탄소년단 (BTS)/(비티에스)를 /os2 뺴놓고는 예술, /oe 문화, 대중문화에 대해서 이야기를 할 수 없는 한 주기 때문에, 저희가 방탄소년단의 리더죠.
+141.780	143.365	speaker#A	/os1 [네.(BC/continuer)] /oe
 146.600	147.360	speaker#A	/os2 얘기할 수 없죠. /oe
 152.884	153.124	speaker#A	[예.(BC/continuer)]
 153.134	159.307	speaker#B	(RM)/(알엠) 그/ 사진을 보시면, /os1 그/ /oe 파란색 머리로 아주 멋있게 염색을 했을 때가 있었거든요.
@@ -172,7 +173,6 @@
 472.640	472.970	speaker#B	/os1 [아.(BC/continuer)] /oe
 473.575	477.585	speaker#A	한국일보 /os1 검, /oe 수사심의위 /os1 뒤집고 중대. 아하하하 /oe
 474.301	474.601	speaker#B	/os1 [네.(BC/continuer)] /oe
-475.471	477.591	speaker#A	n/ 뒤집고 중대. 아하하하
 475.475	477.570	speaker#B	/os1 또 나왔네요. 뒤집고. 어허허허. /oe
 477.591	479.131	speaker#A	n/ 중대범죄 이재용 기소.
 479.885	489.066	speaker#A	자/ 이렇게 되니까, 전부 다 /os1 사실은 /oe 어? 언론들이 삼성에게 연애편지를 쓰고있는 거 /os2 아니냐. 이런지경까지 나오고 있는 거죠. /oe
@@ -255,7 +255,7 @@
 690.697	692.267	speaker#B	/os1 [오!(BC/understanding)] /oe
 693.619	697.625	speaker#B	n/ 어/ 이렇게 또 /os1 에? /oe 라임을 /os2 맞추나요? /oe
 695.015	695.740	speaker#A	/os1 [예.(BC/continuer)] /oe
-696.764	697.469	speaker#A	/os1 [예.(BC/continuer)] /oe
+696.763	697.468	speaker#A	/os2 [예.(BC/continuer)] /oe
 697.625	703.640	speaker#B	맞습니다. 그래서 이제 한국가수 최초로 이 빌보드 (hot)/(핫) 어/ (100)/(백)에서 (1위)/(일 위)를 차지했는데요.
 703.877	708.864	speaker#B	사실 그동안 (1위)/(일 위)를 하지, 그니까 좀/ (1위)/(일 위) 좀 늦어졌다라고 생각했던 이유가 있다면,
 708.864	713.351	speaker#B	이 (1위)/(일 위)를 하는데는 여러가지 조건이 /os2 필요합니다. /oe 다. 도(streaming)/(스트리밍)실적이 /os2 필요하고요. /oe
@@ -369,10 +369,10 @@
 1006.342	1008.187	speaker#B	여보 n/ 막 하는거 있잖아요.
 1010.515	1013.882	speaker#B	n/ /os2 얼마나 구슬퍼 여보가 너무 구슬퍼. /oe
 1010.909	1013.234	speaker#A	/os2 예. 맞아요. 예. /oe
-1013.994	1021.580	speaker#B	네 n/ 아/ 오늘 첫 시간으로 보내드렸던, /os1 성지순례 /oe /os1 울화통 /oe /os2 뉴스와 /oe 문화통 뉴스까지 이제 /os2 만나봤는데요. /oe
+1013.994	1021.580	speaker#B	네. n/ 아/ 오늘 첫 시간으로 보내드렸던, /os1 성지순례 /oe /os1 울화통 /oe /os2 뉴스와 /oe 문화통 뉴스까지 이제 /os2 만나봤는데요. /oe
 1016.589	1016.844	speaker#A	/os1 [네.(BC/continuer)] /oe
 1018.064	1018.389	speaker#A	/os1 [예.(BC/continuer)] /oe
-1019.324	1019.554	speaker#A	/os1 [예.(BC/continuer)] /oe
+1019.323	1019.554	speaker#A	/os2 [예.(BC/continuer)] /oe
 1021.214	1021.484	speaker#A	/os2 [예.(BC/continuer)] /oe
 1021.580	1024.839	speaker#B	저희가 이제 매주 목요일 (12시)/(열 두 시)에 만나뵙게 되잖아요. /os1 그쵸? /oe
 1024.350	1024.795	speaker#A	/os1 [그렇죠.(BC/affirmative)] /oe
@@ -383,7 +383,7 @@
 1044.101	1044.276	speaker#B	/os1 [네.(BC/continuer)] /oe
 1053.881	1054.206	speaker#B	/os1 [네.(BC/continuer)] /oe
 1059.015	1063.945	speaker#A	어/ 또 코너명들에대한 새로운 그런 아이디어들도 n/ 뭐 주시면, 저희들이 받도록 하겠습니다.
-1063.979	1081.597	speaker#B	네 /os1 그리고 /oe 중간에 들어오신 분들은 /os1 모를 /oe 수 있으니까 다시 한번 /os1 저희가 /oe 오늘 이제 n/ 방탄소년단과 블랙핑크 그 /os2 뮤직비디오 /oe 속에 이제 /os2 퓨전한복 네. /oe. /os2 했다는점 다시 한번 /oe 말씀을 n/ /os2 드리면서 /oe 오늘 /os1 저희 성지순례 /oe
+1063.979	1081.597	speaker#B	네 /os1 그리고 /oe 중간에 들어오신 분들은 /os1 모를 /oe 수 있으니까 다시 한번 /os1 저희가 /oe 오늘 이제 n/ 방탄소년단과 블랙핑크 그 /os2 뮤직비디오 /oe 속에 이제 /os2 퓨전한복 네. /oe. 했다는점 다시 한번 말씀을 n/ /os2 드리면서 /oe 오늘 /os1 저희 성지순례 /oe
 1064.334	1064.719	speaker#A	/os1 여러분 /oe
 1065.719	1065.989	speaker#A	/os1 [예.(BC/continuer)] /oe
 1067.219	1067.444	speaker#A	/os1 [예.(BC/continuer)] /oe

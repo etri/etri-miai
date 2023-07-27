@@ -33,10 +33,10 @@
 151.753	153.039	speaker#A	 /os1 [음/(BC/understanding)] /oe 
 156.459	157.829	speaker#A	 /os2 [아/(BC/understanding)] /oe 
 163.605	164.650	speaker#A	 /os1 [음/(BC/understanding)] /oe 
-167.348	178.755	speaker#B	 /os1 이것이 /oe 되게 여러모로 저한텐 매력적으로 다가왔고, /os1 제가 /oe 지향하는 그/ (community)/(커뮤니티)를 구현하기에 괜찮은 환경이라는 생각이 들어서 /os1 정림건축을 선택을 /oe 했어요.
 167.378	167.973	speaker#A	 /os1 [음.(BC/continuer)] /oe 
+167.623	178.755	speaker#B	/os1 이것이 /oe 되게 여러모로 저한텐 매력적으로 다가왔고, /os1 제가 /oe 지향하는 그/ (community)/(커뮤니티)를 구현하기에 괜찮은 환경이라는 생각이 들어서 /os1 정림건축을 선택을 /oe 했어요.
 171.523	171.808	speaker#A	 /os1 [네.(BC/continuer)] /oe 
-176.773	177.858	speaker#A	 /os2 [음/(BC/understanding)] /oe 
+176.772	177.858	speaker#A	/os1 [음.(BC/understanding)] /oe
 178.871	184.664	speaker#A	오/ n/ 되게 예. 또 /os2 말씀 /oe 아/ n/ 예 아
 181.586	183.001	speaker#B	 /os2 여기까지가 /oe 공식적인 답변
 184.718	195.166	speaker#B	 n/ 그렇다고 해면 예 당연히 /os1 예 /oe . 이런 것도 있고 네. 당연하게도 인제 현실적인 /os2 측면에서 /oe 또 고민을 많이 하게 됐는데, 아까 말씀드렸다시피 인제 그/
@@ -98,10 +98,10 @@
 420.150	420.550	speaker#A	 /os1 네. /oe 
 420.605	432.209	speaker#B	그런 것들이 개괄적으로 준비가 돼있었죠. /os1 결국에는 /oe 마지막에 가서 다 인제 구성을 인제 얹기만 하면 되는 상황이긴 했는데, /os1 고렇게 /oe 준비를 했던 것
 423.875	424.755	speaker#A	 /os1 [음/(BC/understanding)] /oe 
-430.464	430.934	speaker#A	 /os2 [네.(BC/continuer)] /oe 
+430.463	430.933	speaker#A	/os1 [네.(BC/continuer)] /oe
 433.144	436.566	speaker#A	그게 /os2 이제 아주 /oe 주요한 관점일 수 /os2 있겠네요. /oe 
-433.679	433.894	speaker#B	 /os1 [네.(BC/continuer)] /oe 
-436.159	436.549	speaker#B	 /os2 그렇죠. /oe 
+433.678	433.894	speaker#B	/os2 [네.(BC/continuer)] /oe
+436.158	436.549	speaker#B	/os2 [그렇죠.(BC/affirmative)] /oe
 437.289	442.704	speaker#A	그게 여러분, 이렇게 해야 합니다. n/ 미리 /os1 n/ 준비가 되어 /oe 있어야 합니다. n/ 
 440.924	441.529	speaker#B	 /os1 너무 너무. /oe 
 442.704	452.084	speaker#B	 n/ 아/그렇게 들릴까 봐 걱정을 했는데 그냥 살짝 생각은 /os1 해보세요. /oe /os1 결국에는 /oe 내가 어떤 사람인가를 한번 n/ 이렇게 보여주는 부분이다 보니까
@@ -168,7 +168,7 @@
 708.895	719.700	speaker#B	또 인제 목공방에 /os1 등록을 해서 /oe 이제/ 그런 가구들을 만들고 하면서 약간 그 작은 디테일을 다루는 거에 대한 /os1 목마름을 채우기도 /oe 했고요.
 710.544	711.130	speaker#A	 /os1 [음.(BC/continuer)] /oe 
 717.520	718.590	speaker#A	 /os1 [음/(BC/understanding)] /oe 
-720.049	733.155	speaker#B	또 인제 뭐/ 술을 잘 못했었는데, /os1 이제 /oe 와인이나 /os2 위스키 같은 /oe 것들을 인제 /os2 막 경험을 /oe 해보면서 제 취향을 찾아가기도 하고, 또 그런 시간들을 가졌더니 한층 자신감이 또 생기고,
+720.049	733.155	speaker#B	또 인제 뭐/ 술을 잘 못했었는데, /os1 이제 와인이나 위스키 같은 /oe 것들을 인제 /os2 막 경험을 /oe 해보면서 제 취향을 찾아가기도 하고, 또 그런 시간들을 가졌더니 한층 자신감이 또 생기고,
 723.249	724.619	speaker#A	 /os1 [음. 네.(BC/continuer)] /oe 
 725.479	726.004	speaker#A	 /os2 [예.(BC/continuer)] /oe 
 733.265	741.627	speaker#B	 /os1 뭐 /oe 집중할 수 있는, 다시 일에 업무에 집중을 할 수 있는 환경이 갖추어지는 것 같아요. 그래서 /os1 n/ 이래서 워라밸이 중요한가보다라는 /oe 생각도 하고요.
@@ -223,13 +223,11 @@
 921.757	931.772	speaker#B	 /os1 그니까 /oe 그/ n/ 바쁜 업무 일정 속에도 뭐/ 결혼 준비들도 있고 /os1 했는데도, /oe 틈틈이 이렇게 촬영도 하고 n/ 유튜브 업로드도 하고 그 와중에 (running)/(러닝)도 하고
 921.772	922.172	speaker#A	 /os1 [네.(BC/continuer)] /oe 
 926.111	926.366	speaker#A	 /os1 [네.(BC/continuer)] /oe 
-932.163	948.683	speaker#B	사실 저를 이렇게 많이 칭찬해 주지만, /os2 사실 /oe 본인이 n/ 더 그런 /os1 어떻게 보면은 n/ 충만한 /oe 삶을 살고 있기 때문에, n/ /os1 아/ /oe 사실 되게 귀감이 되는 /os1 네 /oe /os2 / 존경하는 친구입니다. n/ /os1 예. /oe 
+932.163	948.682	speaker#B	사실 저를 이렇게 많이 칭찬해 주지만, /os2 사실 /oe 본인이 n/ 더 그런 /os1 어떻게 보면은 n/ 충만한 /oe 삶을 살고 있기 때문에, n/ /os1 아/ /oe 사실 되게 귀감이 되는 /os1 네. / 존경하는 친구입니다. n/ 예. /oe
 934.703	935.213	speaker#A	 /os2 [네.(BC/continuer)] /oe 
 937.573	939.048	speaker#A	 /os1 오늘은 제가 주인공이 아닌데, /oe 
 941.098	941.603	speaker#A	 /os1 [예.(BC/continuer)] /oe 
-943.728	944.328	speaker#A	 /os1 [네.(BC/continuer)] /oe 
-944.713	946.168	speaker#A	 /os2 갑자기 갑자기 더운데요? n/ /oe 
-948.088	948.313	speaker#A	 /os1 [예.(BC/continuer)] /oe 
+943.728	946.168	speaker#A	/os1 네. 갑자기 갑자기 더운데요? n/ /oe
 948.682	949.921	speaker#A	아/ /os2 감사합니다. /oe 
 949.592	949.922	speaker#B	 /os2 [네.(BC/continuer)] /oe 
 950.135	952.715	speaker#A	그럼 뭐 또 자연스럽게 다음 /os2 걸로 또 넘어가 볼까요? /oe 
@@ -352,7 +350,7 @@
 1290.076	1292.220	speaker#B	 /os1 아/ 요거를. /oe 네.
 1292.427	1293.326	speaker#A	아 뒤에 /os1 좀 /oe 
 1293.067	1293.297	speaker#B	 /os1 [네.(BC/continuer)] /oe 
-1293.348	1304.432	speaker#B	뒤에 이어서 /os2 뭐 제 /oe 제가 마지막으로 인제 개인적으로 하고 /os2 싶은 얘기를 할 때 조금 더 설명을 드리도록 할게요. 근데, 당연하게도 현찬님이 /os2 말씀하신 /oe 것처럼 /os1 (community)/(커뮤니티) /oe 시설들이
+1293.348	1304.432	speaker#B	뒤에 이어서 /os2 뭐 제 /oe 제가 마지막으로 인제 개인적으로 하고 /os2 싶은 얘기를 할 때 조금 더 설명을 드리도록 할게요. 근데, /oe 당연하게도 현찬님이 /os2 말씀하신 /oe 것처럼 /os1 (community)/(커뮤니티) /oe 시설들이
 1294.523	1294.833	speaker#A	 /os2 [어.(BC/continuer)] /oe 
 1296.648	1300.523	speaker#A	 /os2 음 아 그러면 좀 아껴둘까요? 네, 좋아요. 네. /oe 
 1301.628	1301.863	speaker#A	 /os2 [네.(BC/continuer)] /oe 
@@ -382,10 +380,10 @@
 1355.970	1356.735	speaker#A	[네.(BC/continuer)] n/ 
 1356.790	1362.546	speaker#B	뭐 마침 이번 주에 그/ (9월)/(구 월) 시험 응시 기간이라서 신청을 했고, /os2 (9월)/(구 월)에 /oe 첫 시험을 앞두고 있고요,
 1361.120	1361.390	speaker#A	 /os2 [네.(BC/continuer)] /oe 
-1362.666	1374.045	speaker#B	 /os1 근데 /oe 이렇게 좀 설렁설렁 공부해가지고 n/ 아무튼 내 내년까지는 n/ 마무리하고 싶어요. /os2 이게 /oe 일단은 일차적인 목표는 올해 그리고 내년까지는 이제 건축사 취득이
-1362.676	1363.181	speaker#A	 /os1 [아.(BC/continuer)] /oe 
-1362.681	1363.211	speaker#A	 /os1 [어.(BC/continuer)] /oe 
-1368.421	1368.951	speaker#A	 /os2 [네.(BC/continuer)] /oe 
+1362.681	1363.111	speaker#A	[어.(BC/continuer)]
+1363.066	1368.463	speaker#B	이렇게 좀 설렁설렁 공부해가지고 n/ 아무튼 내 내년까지는 마무리하고 싶어요. 이게
+1368.464	1369.045	speaker#A	[네.(BC/continuer)]
+1369.045	1374.045	speaker#B	일단은 일차적인 목표는 올해 그리고 내년까지는 이제 건축사 취득이
 1374.140	1374.775	speaker#A	[음.(BC/continuer)]
 1374.843	1377.677	speaker#B	예/ 가장 가까운 목표라고 할 수 있을 것 같애요.
 1377.739	1378.166	speaker#A	[네.(BC/continuer)]
@@ -623,10 +621,11 @@
 2211.817	2212.082	speaker#B	 /os2 [예.(BC/continuer)] /oe 
 2213.332	2214.852	speaker#B	 /os2 꽤 /oe 많을 거라 생각도 하지만,
 2214.832	2215.135	speaker#A	[네.(BC/continuer)]
-2215.198	2229.894	speaker#B	어/ 되게 어떻게 보면 되게 말랑말랑한 얘기고 너무 약간 어/ /os1 뭐랄까 /oe 뻔한 얘기일 수 있고 그런데, /os1 아/ /oe 뭐 스스로 커뮤니티에 대한 것들을 고찰을 해보면서 그런 라이프 스타일을 저 스스로 내재화할려고 많이 노력을 하고 있고,
+2215.197	2221.517	speaker#B	어/ 되게 어떻게 보면 되게 말랑말랑한 얘기고 너무 약간 어/ /os1 뭐랄까 /oe 뻔한 얘기일 수 있고 그런데.
 2218.465	2219.120	speaker#A	 /os1 [음.(BC/continuer)] /oe 
-2221.629	2221.969	speaker#A	 /os1 [네.(BC/continuer)] /oe 
-2230.000	2241.708	speaker#B	 /os1 예. /oe 상호 존중을 n/ 기반으로 소통을 하는 것, 내가 하는 이 모든 행동 자체가 /os1 건축이고 /oe 거기 내가 하는 일에서 드러날 거라는 생각을 /os1 하다보니깐 /oe 요렇게 설명을 드리게 됐구요.
+2221.617	2221.977	speaker#B	[네.(BC/continuer)]
+2221.977	2229.894	speaker#A	아/ 뭐 스스로 커뮤니티에 대한 것들을 고찰을 해보면서 그런 라이프 스타일을 저 스스로 내재화할려고 많이 노력을 하고 있고,
+2230.469	2241.708	speaker#B	예. 상호 존중을 n/ 기반으로 소통을 하는 것, 내가 하는 이 모든 행동 자체가 /os1 건축이고 /oe 거기 내가 하는 일에서 드러날 거라는 생각을 /os1 하다보니깐 /oe 요렇게 설명을 드리게 됐구요.
 2235.730	2236.035	speaker#A	 /os1 [네.(BC/continuer)] /oe 
 2239.075	2239.910	speaker#A	 /os1 [음/(BC/understanding)] /oe 
 2241.858	2242.344	speaker#A	[네.(BC/continuer)]
@@ -651,20 +650,17 @@
 2294.213	2296.093	speaker#B	 /os1 [당연하죠. 네네.(BC/affirmative)] /oe 
 2301.407	2301.767	speaker#B	 /os2 [예.(BC/continuer)] /oe 
 2302.856	2305.593	speaker#B	아 이거 안돼요. n/ 아/ 이거 엄청 /os2 중요해요. /oe 
-2303.812	2318.197	speaker#A	 /os1 근데 /oe 이건 n/ 진짜 정말로 이 사이트가 거의 전부라고 봐도 될 /os2 정도로 /oe 그거를 같이 가지 않으면 절대 그/ 커뮤니티 개념을 이룰 수 없는 /os1 거잖아요. /oe 
+2303.812	2318.197	speaker#A	/os2 근데 /oe 이건 n/ 진짜 정말로 이 사이트가 거의 전부라고 봐도 될 /os2 정도로 /oe 그거를 같이 가지 않으면 절대 그/ 커뮤니티 개념을 이룰 수 없는 /os1 거잖아요. /oe
 2310.525	2310.865	speaker#B	 /os2 [네.(BC/continuer)] /oe 
-2317.373	2318.973	speaker#B	 /os1 [음.(BC/continuer)] /oe 
 2317.480	2318.100	speaker#B	 /os1 [맞아요.(BC/affirmative)] /oe 
 2318.278	2337.468	speaker#A	 /os1 그냥 /oe 내 눈에 예쁘고, 어/ 난 이런 요소 /os2 썼어 /oe 이게 내 작품이야 이런 클라이언트한테 이게 어울려라고 해서 단순히 하는 게 어떻게 보면 그 관점이 결국 그 사람한테는 정답일 수 /os2 있지만, /oe 그게 어떤 거시적인 커뮤니티 관점으로 봤을 때는 좀
 2318.323	2318.633	speaker#B	 /os1 [예.(BC/continuer)] /oe 
 2322.368	2322.568	speaker#B	 /os2 [음.(BC/continuer)] /oe 
-2332.368	2332.693	speaker#B	 /os2 [네/(BC/understanding)] /oe 
-2337.534	2340.158	speaker#B	거시적인 /os1 관점 /oe 거시적인 관점에서
-2338.109	2343.664	speaker#A	 /os1 네. 거스르는 /oe /os1 경향도 /oe 없지 않아 있다. /os1 그런 거 같은데 /oe 
-2340.449	2340.664	speaker#B	 /os1 [네.(BC/continuer)] /oe 
-2342.308	2351.554	speaker#B	 /os2 어/ 그게 모든게 약간 /oe 편리함과 편안함 /os1 (2가지)/(두 가지)로 /oe 이렇게 함축이 될 수 있을 것 같아요. /os1 도시 /oe 설계 또는 이렇게 공동 건축 설계를 하면서
-2345.153	2345.413	speaker#A	 /os1 [네.(BC/continuer)] /oe 
-2348.208	2348.608	speaker#A	 /os1 [음.(BC/continuer)] /oe 
+2332.366	2332.646	speaker#B	/os2 [네.(BC/continuer)] /oe
+2337.497	2347.982	speaker#B	거시적인 /os2 관점? 거시적인 관점에서 네. 어/ 그게 모든게 약간 /oe 편리함과 편안함. (2가지)/(두 가지)로 이렇게 함축이 될 수 있을 것 같아요.
+2338.187	2343.752	speaker#A	/os2  네. 거스르는 경향도 없지 않아 있다. 그런 거 같아요. 네. /oe
+2348.190	2348.635	speaker#A	[음.(BC/continuer)]
+2348.635	2351.625	speaker#B	까 도시 설계 또는 이렇게 공동 주택 설계를 하면서
 2351.736	2352.131	speaker#A	[네.(BC/continuer)]
 2352.426	2359.385	speaker#B	중요하게 생각해야 되는 키워드 (2가지)/(두 가지)가 이제 편리함이고 /os1 편안함이고, /oe 당연히 내가 살면서 불편함이 없어야 되는 것들
 2355.466	2356.661	speaker#A	 /os1 [음음.(BC/continuer)] /oe 
@@ -698,7 +694,7 @@
 2422.234	2422.369	speaker#B	 /os2 [음.(BC/continuer)] /oe 
 2424.534	2425.044	speaker#B	 /os2 [맞아요.(BC/affirmative)] /oe 
 2426.729	2426.939	speaker#B	 /os2 [예.(BC/continuer)] /oe 
-2431.687	2435.647	speaker#A	 /os1 도시적인 /oe 관점에서 볼 때는 공동 주택을 피할 순 없다.
+2431.687	2435.646	speaker#A	도시적인 관점에서 볼 때는 공동 주택을 피할 순 없다.
 2435.646	2436.522	speaker#B	[당연하죠. 네.(BC/affirmative)]
 2436.583	2439.135	speaker#A	어/ 그거를 조금 알고 /os1 가셔도 /oe 좋을 것 같아요.
 2438.103	2438.403	speaker#B	 /os1 [음.(BC/continuer)] /oe 

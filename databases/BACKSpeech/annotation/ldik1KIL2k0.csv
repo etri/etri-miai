@@ -1,7 +1,7 @@
 0.032	15.600	speaker#A	 n/ 아/ 이런 /os2 아이템으로 /oe 하겠습니다. n/ 제가 그래서 옛날 사진을 /os2 찾아보다가 /oe 그/ 오렌지족으로 활동하던 n/ 옛날 그/ 사진을 하나 아/ 나왔는데 /os1 어/ /oe 그때는 뭐였냐하면 머리를 앞머리만 길게 이렇게 강타씨가 그렇게 많이 했었나?
 1.240	1.515	speaker#B	 /os2 [네.(BC/continuer)] /oe 
 4.255	4.655	speaker#B	 /os2 [네.(BC/continuer)] /oe 
-9.350	9.650	speaker#B	 /os2 [네.(BC/continuer)] /oe 
+9.350	9.649	speaker#B	/os1 [네.(BC/continuer)] /oe
 15.720	16.280	speaker#B	맞아요.
 16.420	17.493	speaker#A	어/ /os1 그렇게 머리했었나? /oe 
 16.748	19.702	speaker#B	 /os1 예. 요렇게 앞 /oe 앞꼬리를 요렇게 n/ 내렸죠.
@@ -12,7 +12,7 @@
 32.192	33.680	speaker#A	예예. 어릴때 사진인데
 33.680	34.120	speaker#B	[네.(BC/continuer)]
 34.293	39.508	speaker#A	그냥 뭐/ 어떻게 좀 안보는게 나을 것 같긴 한데 혹시 저/ 보고 싶으시면 요 요런 느낌에요. 이렇게 앞머리 이렇게 해서
-39.659	42.129	speaker#B	[허어 /os2 오오. /oe (BC/assessment)]
+39.659	42.129	speaker#B	/os2 [허어 오오. (BC/assessment)] /oe
 41.618	42.821	speaker#A	 /os2 그래도 지금보단 /oe 낫죠?
 42.821	46.836	speaker#B	아니 저때는 괜찮았네. n/ 저땐 괜찮네. 보니까.
 47.015	48.902	speaker#A	굉장히 n/ 불쾌하네요. n/ 

@@ -66,10 +66,10 @@
 244.830	245.065	speaker#A	[음.(BC/continuer)]
 245.507	257.519	speaker#B	그런데 노후 주거지로써 저희가 공부를 해보니까 실버타운이 건강적인 면에 /os2 있어서는 /oe 여러 가지 생활 편의 /os1 이런 /oe 서비스를 충분히 받으면서 생활할 수 있다는 거
 251.552	252.032	speaker#A	 /os2 [음.(BC/continuer)] /oe 
-253.647	253.937	speaker#A	 /os2 [네.(BC/continuer)] /oe 
+253.647	253.936	speaker#A	/os1 [네.(BC/continuer)] /oe
 257.520	258.055	speaker#A	[음.(BC/continuer)]
 258.053	270.273	speaker#B	그러면은 좀 더 일찍 들어갈 경우에 내 건강을 또 /os2 유지하면서 /oe 노후에도 건강하게 살 수 있다는 /os2 점이죠. /oe /os1 그래서 /oe 이러한 장점들이 많아서 저희는 /os1 실버타운에 /oe 일찍 들어가려고 합니다.
-261.904	262.144	speaker#A	 /os1 [음.(BC/continuer)] /oe 
+261.903	262.144	speaker#A	/os2 [음.(BC/continuer)] /oe
 264.733	264.973	speaker#A	 /os2 [네.(BC/continuer)] /oe 
 265.343	265.773	speaker#A	 /os1 [아/(BC/assessment)] /oe 
 268.338	268.698	speaker#A	 /os1 [음.(BC/continuer)] /oe 
@@ -126,7 +126,6 @@
 408.467	410.471	speaker#A	 /os1 집에서였으면 /oe 아무거나 먹게 /os2 되잖아요? /oe 
 408.522	408.787	speaker#B	 /os1 [그렇죠.(BC/affirmative)] /oe 
 409.837	410.302	speaker#B	 /os2 [그렇죠.(BC/affirmative)] /oe 
-409.837	410.302	speaker#C	 /os2 [그렇죠.(BC/affirmative)] /oe 
 410.471	417.260	speaker#A	근데 거긴 이제 내 상황에 맞게, 내 체질에 맞게, 나이에 맞게 건강식으로 준비를 해준다는 /os2 거죠? /oe 삼시 (3끼)/(세 끼)를요?
 415.901	416.251	speaker#B	 /os2 [네네.(BC/continuer)] /oe 
 417.286	417.676	speaker#B	그럼요.
@@ -139,8 +138,7 @@
 427.071	427.431	speaker#B	 /os2 [음.(BC/continuer)] /oe 
 427.428	427.977	speaker#A	[맞아요.(BC/affirmative)]
 427.977	431.587	speaker#B	그러면서 몸이 약한데 더 약해지기가 n/ 쉽거든요?
-431.587	441.742	speaker#A	한의사님이니까 더 잘 아실 거 같아요. n/ 우리가 먹는 게 이/ 건강에 굉장히 중요한 거죠? n/ 근데 이제 혼자 드시 사시다 보면 특히 남성분들은 이/ 먹는 게 정말 부실해질 수밖에 없어요 그럴것 /os2 같아요. /oe 
-441.752	441.857	speaker#C	[그쵸.(BC/affirmative)]
+431.587	441.742	speaker#A	한의사님이니까 더 잘 아실 거 같아요. n/ 우리가 먹는 게 이/ 건강에 굉장히 중요한 거죠? n/ 근데 이제 혼자 드시 사시다 보면 특히 남성분들은 이/ 먹는 게 정말 부실해질 수밖에 없어요 그럴것 같아요.
 441.856	448.102	speaker#A	그래서 인제 그것 땜에 몸도 안 좋아지시고. 근데 거기서는 n/ 각 개인에 맞게 아주 건강식을 만들어 준다는 거죠? 삼시 (3끼)/(세 끼)를?
 448.102	449.009	speaker#B	네. 그렇습니다.
 449.029	452.070	speaker#A	어/ 그것만으로도 충분히 이유가 되네요. 또 어떤 장점이 있나요?
@@ -157,12 +155,12 @@
 476.640	480.726	speaker#B	거의 실버타운의 직원들이 그걸 도와주는 /os1 역할을 하거든요. /oe 
 479.591	480.226	speaker#A	 /os1 [음.(BC/continuer)] /oe 
 480.767	481.105	speaker#A	 /os1 그래요? /oe 
-480.985	482.803	speaker#B	예를 들면은 수영장
+480.984	482.803	speaker#A	/os1 예를 /oe 들면은 수영장
 482.778	483.230	speaker#A	[네.(BC/continuer)]
 483.230	491.334	speaker#B	그다음 /os2 피트니스 /oe 그다음 /os2 물리치료실 /oe 이/ 건강을 위해서 이런 것들. 그다음 운동 시설들 탁구장, 당구장, /os1 골프 연습실. /oe 
 484.090	484.615	speaker#A	 /os2 [음.(BC/continuer)] /oe 
 485.615	485.990	speaker#A	 /os2 [음.(BC/continuer)] /oe 
-490.215	490.630	speaker#A	 /os2 [음/(BC/understanding)] /oe 
+490.214	490.630	speaker#A	/os1 [음/(BC/understanding)] /oe
 491.663	495.448	speaker#B	이런 것들이 거의 대부분 실버타운들이 기본적으로 갖추고 있고요.
 495.558	500.980	speaker#A	그니까 본인들에 대한 취미 생활 하시고 /os1 취미 /oe 생활 하시면서 거기서 또 친구분들도
 498.063	498.323	speaker#B	 /os1 [네.(BC/continuer)] /oe 
@@ -266,12 +264,12 @@
 764.242	764.663	speaker#A	 /os1 [그렇군요.(BC/affirmative)] /oe 
 765.288	765.928	speaker#A	 /os2 [음.(BC/continuer)] /oe 
 766.192	772.570	speaker#C	n/ 장점이 아까 하나 빠졌는데요. 어/ 마지막 (5번째)/(다섯 번째)는 그/ 아내한테 사랑받는 n/ 남편이 된다는 /os1 겁니다. /oe
-772.100	773.685	speaker#A	어/ 그게 어떤 n/ 의미죠?
+772.099	773.684	speaker#A	/os1 어/ /oe 그게 어떤 n/ 의미죠?
 774.007	786.377	speaker#C	그니까 이제 여자 그/ 이제 여성 시니어분들도 /os1 예전에 /oe 같이 이렇게 맞벌이로 또 일도 하실 수도 /os2 있고 /oe 또 뒷바라지를 하더라도 그/ 굉장히 어려운 가사일을 /os1 혼자서 /oe 맡아서 했던 /os2 거잖아요. /oe 
 776.802	777.007	speaker#A	 /os1 [음.(BC/continuer)] /oe 
 780.107	780.502	speaker#A	 /os2 [음.(BC/continuer)] /oe 
 784.972	785.167	speaker#A	 /os1 [음.(BC/continuer)] /oe 
-786.335	786.760	speaker#A	 /os1 [그렇죠.(BC/affirmative)] /oe 
+786.335	786.760	speaker#A	/os2 [그렇죠.(BC/affirmative)] /oe
 786.859	791.570	speaker#C	근데 이제, 이제는 좀 그/ /os1 와이프도 /oe 좀 누려도 된다고 /os1 생각하거든요. /oe 
 788.864	789.689	speaker#A	 /os1 [아/(BC/assessment)] /oe 
 790.894	791.099	speaker#A	 /os1 [음.(BC/continuer)] /oe 
@@ -335,7 +333,7 @@
 937.246	937.606	speaker#A	 /os1 [음.(BC/continuer)] /oe 
 939.387	939.737	speaker#A	[네.(BC/continuer)]
 939.737	946.476	speaker#B	그래서 실버타운에서 그러한 식사 준비 /os1 다른 /oe 일에서 어느 정도는 해방이 되고
-943.687	943.832	speaker#A	 /os2 [음.(BC/continuer)] /oe 
+943.687	943.831	speaker#A	/os1 [음.(BC/continuer)] /oe
 946.476	946.859	speaker#A	[음.(BC/continuer)]
 946.859	949.783	speaker#B	그렇더라도 계속해서 일을 하실 수 있거든요.
 949.784	950.187	speaker#A	[그쵸.(BC/affirmative)]
@@ -411,16 +409,15 @@
 1141.572	1146.869	speaker#C	저희 영상에 이제 구독자가 /os2 늘잖아요. /oe 근데 초기에 밤에 잠을 자고 나면 확 늘어있는 거예요.
 1143.243	1143.437	speaker#A	 /os2 [네.(BC/continuer)] /oe 
 1146.869	1147.573	speaker#A	 /os2 [으음. 그래요?(BC/request confirmation)] /oe 
-1147.556	1150.751	speaker#C	이게 뭔 일인가? 봤더니 해외에서 보시는 분들이더라고요.
+1147.556	1150.750	speaker#C	/os2 이게 /oe 뭔 일인가? 봤더니 해외에서 보시는 분들이더라고요.
 1150.750	1151.090	speaker#A	[음.(BC/continuer)]
 1151.090	1160.920	speaker#C	댓글도 아주 열심히 달아 주시는데 이제 그분들이 한국에 이제 은퇴하고 들어오시면 n/ 저희는 베이스캠프로 이렇게 /os1 실버타운이 /oe 좀 좋다. 이렇게 생각을 하는데요.
 1158.280	1158.390	speaker#A	 /os1 [네.(BC/continuer)] /oe 
 1160.920	1171.687	speaker#C	처음부터 많은 돈 쓰지 않으시면서 고/ 이렇게 편안하게 그곳에 /os2 계시면서 /oe 한국에 변한 사정이라든가 이런 한국에 적응하는 그런 시간들이 필요하다고 /os2 생각하거든요. /oe 
 1165.613	1166.022	speaker#A	 /os2 [음/(BC/understanding)] /oe 
 1171.152	1171.372	speaker#A	 /os2 [네.(BC/continuer)] /oe 
-1172.167	1186.494	speaker#C	그렇게 실버타운을 이용하시면서 아/ 이곳이 진짜 좋다 그럼 계속 사셔도 좋고 아니면, 이제 그때 공부해서 발견한 곳으로 옮기셔도 좋고. 이렇게 터전을. 그래서 역이민자들이 예/ 귀국하셨을 때 /os1 아주 유용하다. /oe 이렇게 생각하고 /os2 있습니다. /oe 
+1172.166	1186.494	speaker#C	그렇게 실버타운을 이용하시면서 아/ 이곳이 진짜 좋다 그럼 계속 사셔도 좋고 아니면, 이제 그때 공부해서 발견한 곳으로 옮기셔도 좋고. 이렇게 터전을. 그래서 역이민자들이 예/ 귀국하셨을 때 /os1 아주 유용하다. /oe 이렇게 생각하고 있습니다.
 1184.613	1185.108	speaker#A	 /os1 [음.(BC/continuer)] /oe 
-1186.334	1186.709	speaker#A	 /os2 [그렇군요.(BC/affirmative)] /oe 
-1186.884	1187.173	speaker#A	 /os2 [그래요.(BC/affirmative)] /oe 
+1186.333	1187.172	speaker#A	[그렇군요. 그래요.(BC/affirmative)]
 1187.777	1205.750	speaker#A	아/ 이제 여러분들이 실버타운을 좀 더 관심을 가지고 주변에 있는 데 한번 방문해보시면 좋을 거 같아요. 어떤 삶을 살아가는지. 그래서 여러분도 뭐/ (80)/(팔십), (90)/(구십)이 아니라 (60대)/(육십 대)부터 들어가시는 분도 지금 많이 있습니다. 신미 모 연예인도 (60)/(육십) 되면 n/ 실버타운 들어가신다고 하셨는데 그분도 가서 보신 거 같아요. 여기가 얼마나 살기 좋은지.
 1238.423	1250.781	speaker#A	네/ 오늘 정보 도움이 좀 되셨나요? 앞으로 이런 정보 계속 받아보실 분은요, 여기 구독 어/ 부탁드리고요. 그다음에 에/ 오른쪽은 제가 추천하는 영상입니다. 꼭 한번 보시기 바랍니다.
