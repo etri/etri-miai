@@ -48,7 +48,7 @@ To ensure the responsible use of this corpus, please adhere to the following gui
 ## Download
 
 You can download the corpus by using the following link:
-[Download Korean Backchannel Annotation Corpus](https://github.com/etri/etri-miai/archive/refs/heads/KoBAC_v0.1.zip) 
+=> Coming soon.
 
 
 ## License
