@@ -17,7 +17,7 @@ The dataset contains approximately 19,230 segments, with a total audio duration 
 ### Data Format
 
 Each data entry in the dataset consists of:
-1. Audio file (.wav)
+1. Video List
 2. Annotations for ASR containing transcription and segments information
 3. Annotations for BCP containing BC annotations 
 
@@ -47,8 +47,8 @@ To ensure the responsible use of this corpus, please adhere to the following gui
 
 ## Download
 
-You can download the corpus by using the following link:
-=> Coming soon.
+You can download the video on [list/list.txt](https://github.com/etri/etri-miai/blob/main/databases/BACKSpeech/list/list.txt) by using the following guideline.
+[[:link:]](https://github.com/etri/kmsav/blob/main/HOWTO.md#data-prepare)
 
 
 ## License
@@ -62,7 +62,7 @@ If you use this dataset in your research, please cite it as follows:
 ```less
 @misc{BACKSpeech,
     title={Backchannel Annotation Corpus in Korean Speech},
-    author={},
+    author={Seung Hi, Kim, Jeong-Uk Bang, Yong-Seok Choi, Seung Yun},
     year={2023},
     howpublished={\url{https://github.com/etri/etri-miai}},
 }
@@ -70,5 +70,5 @@ If you use this dataset in your research, please cite it as follows:
 
 ## Contact
 
-For any questions or concerns related to this dataset, please reach out to us by opening an issue on this repository or by contacting us at [seunghi@etri.re.kr](mailto:seunghi@etri.re.kr).
+For any questions or concerns related to this dataset, please reach out to us by opening an issue on this repository or by contacting us at [yseokchoi@etri.re.kr](mailto:yseokchoi@etri.re.kr).
 
