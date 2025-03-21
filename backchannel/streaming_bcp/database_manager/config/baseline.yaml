@@ -1,0 +1,35 @@
+DB_root: ../example
+
+audio:
+    sample_rate: 16000
+
+stft:
+    n_fft: 512
+    hop_len: 128
+    center: True
+
+conv:
+    name: "conv2d"
+    kernel: [3, 3]
+    stride: [2, 2]
+
+block:
+    block_size: 40
+    previous_size: 8
+    current_size: 16
+    lookahead_size: 16
+    hop_size: 16
+
+policy:
+    filter: # [PassThrough, Empty, TooShort]
+    #   - name: policy name
+    #     kwargs1: value1
+    #     kwargs2: value2
+        - name: PassThrough
+    end: Default 
+    label:
+        type:
+            - name: BCwFilter
+        join: Or   # ["And", "Or"]
+        annotation: CurrentClassificationwithFilter   # [CurrentClassification, CurrentClassificationwithFilter]
+    split: Dialogue # [Dialogue, Utterance]

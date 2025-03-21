@@ -70,5 +70,5 @@ If you use this dataset in your research, please cite it as follows:
 
 ## Contact
 
-For any questions or concerns related to this dataset, please reach out to us by opening an issue on this repository or by contacting us at [yseokchoi@etri.re.kr](mailto:yseokchoi@etri.re.kr).
+If you have any questions or concerns related to this dataset, please open an issue on this repository or contact us at [yseokchoi@etri.re.kr](mailto:yseokchoi@etri.re.kr).
 
