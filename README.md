@@ -12,7 +12,7 @@ The full scope of research can be found at the following link: [[Project MIAI](h
 |-----------------------|--------------------------------------|
 | Database             | - BACKSpeech [[link](https://github.com/etri/etri-miai/tree/main/databases/BACKSpeech)]                         |
 | Paraverbal Analysis  | *will be updated soon.*                |
-| Backchannel Prediction | - Backchannel Prediction [[link](https://github.com/etri/etri-miai/tree/main/backchannel)] <br> - Streaming Backchannel Prediction [*Update soon.*] |
+| Backchannel Prediction | - Backchannel Prediction [[link](https://github.com/etri/etri-miai/tree/main/backchannel)] <br> - Streaming Backchannel Prediction [[link](https://github.com/etri/etri-miai/tree/main/backchannel/streaming_bcp)] |
 
 
 ## Acknowledgements
