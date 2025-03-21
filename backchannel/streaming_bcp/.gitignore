@@ -1,0 +1,6 @@
+data/
+data_lc/
+dump_and_exp/
+example_full/
+
+*.pyc

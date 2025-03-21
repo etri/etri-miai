@@ -1,0 +1,29 @@
+reference:
+    name: "320_160_8_16_16"
+    stft:
+        win_len: 320
+        hop_len: 160
+        n_fft: 512
+        center: True
+
+    conv:
+        name: "conv2d"
+        kernel: [3, 3]
+        stride: [2, 2]
+
+    block:
+        block_size: 40
+        previous_size: 8
+        current_size: 16
+        lookahead_size: 16
+        hop_size: 16
+
+priority:
+    swbd:
+        - "CONTINUER"
+        - "ASSESSMENT"
+    
+    ckbd:
+        - "CONTINUER"
+        - "UNDERSTANDING"
+        - "EMPATHETIC"
