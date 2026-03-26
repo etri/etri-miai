@@ -1,0 +1,7 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	DG0002	3.21	3.405	CONTINUER	네.	[1]	[1]	[5]
+2	DG0002	13.991	14.591	AFFIRMATIVE	그렇죠.	[1]	[2]	[6]
+3	DG0002	15.591	15.996	CONTINUER	음.	[1]	[2]	[8]
+4	DG0001	23.583	24.203	CONTINUER	네네.	[2]	[3]	[6]
+5	DG0001	25.253	25.558	CONTINUER	네.	[2]	[3]	[9]
+6	DG0002	31.145	31.895	ASSESSMENT	그러니까요.	[3]	[4]	[4]

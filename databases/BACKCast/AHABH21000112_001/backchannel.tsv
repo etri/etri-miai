@@ -1,0 +1,9 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	AH0001	14.537	15.002	CONTINUER	네.	[2]	[3]	[7]
+2	AH0001	17.177	17.527	CONTINUER	네.	[2]	[3]	[12]
+3	AH0001	23.432	23.712	CONTINUER	네.	[2]	[4]	[11]
+4	AH0001	29.297	29.517	CONTINUER	예.	[4]	[7]	[1]
+5	AH0001	35.177	35.332	CONTINUER	네.	[4]	[7]	[12]
+6	AH0002	57.054	58.389	CONTINUER	네. 음.	[5]	[11]	[13]
+7	AH0001	70.708	70.938	CONTINUER	예.	[6]	[13]	[14]
+8	AH0001	73.578	73.873	CONTINUER	네.	[6]	[13]	[18]

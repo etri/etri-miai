@@ -1,0 +1,9 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	DG0001	9.246	9.506	CONTINUER	네.	[2]	[3]	[1]
+2	DG0001	11.227	11.597	CONTINUER	네.	[2]	[4]	[4]
+3	DG0001	13.537	13.682	CONTINUER	음.	[2]	[5]	[4]
+4	DG0001	17.777	18.177	CONTINUER	네.	[2]	[5]	[17]
+5	DG0001	19.287	19.652	CONTINUER	네.	[2]	[6]	[3]
+6	DG0001	58.049	58.293	CONTINUER	음.	[8]	[15]	[1]
+7	DG0001	60.503	61.033	CONTINUER	네네.	[8]	[16]	[3]
+8	DG0001	63.346	64.641	ASSESSMENT	오.	[8]	[17]	[7]

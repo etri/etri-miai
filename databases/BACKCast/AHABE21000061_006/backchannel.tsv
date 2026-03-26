@@ -1,0 +1,12 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	AH0002	3.55	4.71	ASSESSMENT	허. 우와.	[1]	[1]	[5]
+2	AH0002	21.151	22.646	ASSESSMENT	우와. 예.	[5]	[8]	[1]
+3	AH0002	37.651	39.331	CONTINUER	네네. 네네네.	[5]	[12]	[3]
+4	AH0002	44.409	44.837	CONTINUER	네.	[5]	[14]	[9]
+5	AH0001	53.395	53.75	CONTINUER	네.	[]	[]	[]
+6	AH0001	58.068	59.123	AFFIRMATIVE	그렇죠. 맞아요.	[8]	[18]	[10]
+7	AH0001	63.966	65.001	CONTINUER	어. 네.	[8]	[19]	[12]
+8	AH0001	68.764	69.004	CONTINUER	네.	[8]	[20]	[7]
+9	AH0002	81.56	82.491	CONTINUER	네네네네.	[9]	[23]	[6]
+10	AH0001	84.012	84.622	CONTINUER	어.	[10]	[25]	[3]
+11	AH0002	91.457	92.042	CONTINUER	네.	[11]	[27]	[5]

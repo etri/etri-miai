@@ -1,0 +1,8 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	AH0001	22.371	22.741	CONTINUER	네.	[6]	[9]	[1]
+2	AH0002	26.573	26.898	CONTINUER	네.	[7]	[10]	[4]
+3	AH0002	30.673	31.268	AFFIRMATIVE	맞습니다.	[7]	[10]	[9]
+4	AH0002	32.748	32.963	CONTINUER	네.	[7]	[10]	[12]
+5	AH0002	56.808	57.133	CONTINUER	네.	[11]	[17]	[8]
+6	AH0002	60.703	61.188	AFFIRMATIVE	그렇죠.	[11]	[17]	[13]
+7	AH0002	67.05	67.45	CONTINUER	네.	[13]	[20]	[3]

@@ -1,0 +1,6 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	DG0002	12.221	12.431	CONTINUER	네.	[1]	[2]	[5]
+2	DG0001	18.992	19.552	CONTINUER	음.	[2]	[3]	[8]
+3	DG0002	40.58	41.61	AFFIRMATIVE	네. 맞습니다.	[5]	[6]	[11]
+4	DG0002	58.75	58.895	CONTINUER	예.	[9]	[11]	[8]
+5	DG0002	62.31	62.545	CONTINUER	네.	[9]	[11]	[17]

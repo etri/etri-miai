@@ -1,0 +1,6 @@
+bid	speaker	start	end	category	text	respondee_uid	respondee_sid	respondee_wid
+1	SL0002	7.81	8.07	CONTINUER	네.	[1]	[2]	[1]
+2	SL0001	15.814	16.009	CONTINUER	네.	[2]	[3]	[5]
+3	SL0001	23.614	24.028	CONTINUER	네.	[2]	[3]	[16]
+4	SL0001	36.555	36.925	CONTINUER	네.	[2]	[5]	[10]
+5	SL0001	61.264	61.79	CONTINUER	네.	[2]	[7]	[14]
