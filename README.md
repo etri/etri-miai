@@ -1,3 +1,7 @@
+# Project MIAI - ETRI
+
+[[Korean](./README.md)] [[English](./README.en.md)]
+
 ## Introduction
 이 프로젝트는 ‘인간과의 공감형 대화를 위한 멀티모달 상호작용 인공지능 연구’의 일환으로 수행되었습니다.  
 우리는 인간의 감정과 의도를 깊이 이해하기 위한 **준언어적 분석(Paraverbal analysis)** 과 대화 몰입도를 높이기 위한 **백채널 예측(Backchannel Prediction)** 연구에 중점을 두고 있습니다.
