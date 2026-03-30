@@ -1,6 +1,6 @@
 # BACKCast: Backchannel Annotation Dataset for Korean Broadcast Conversational Speech
-[Korean](./README.md) [English](./README.en.md)
----
+
+[[Korean](./README.md)] [[English](./README.en.md)]
 
 ## 소개
 본 데이터셋은 AIHub **방송 콘텐츠 대화체 음성인식 데이터** 중 **2인 대화**로 구성된 부분을 추출하여, **백채널(backchannel)** 정보를 추가로 레이블링한 데이터셋입니다.
