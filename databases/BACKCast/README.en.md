@@ -44,12 +44,17 @@ The dataset is organized into **per-dialogue folders**, each containing two TSV 
 
 ```text
 dataset/
-  dialogue_000001/
-    word.tsv
-    backchannel.tsv
-  dialogue_000002/
-    word.tsv
-    backchannel.tsv
+  [program_000001]/
+    dialogue_000001/
+      word.tsv
+      backchannel.tsv
+    dialogue_000002/
+      word.tsv
+      backchannel.tsv
+  [program_000002]/
+    dialogue_000101/
+      word.tsv
+      backchannel.tsv
   ...
 ````
 
