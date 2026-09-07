@@ -1,0 +1,101 @@
+# Qwen2-Audio Instruct LoRA v1 — Switchboard (SWBD) English baseline
+# - separated speaker/listener audio + speaker_text
+# - English prompt template (v_separated_en)
+# - SWBD 3-class: NOBC / CONTINUER / ASSESSMENT
+
+qwen2_audio:
+  model_type: "instruct"
+  model_id: null
+  torch_dtype: "float16"
+  device_map: "cuda:0"
+  max_new_tokens: 5
+  do_sample: false
+  attn_implementation: "sdpa"
+
+  use_chat_template: true
+  use_speaker_text: true
+  use_listener_text: false
+  prompt_version: "v_separated_en"
+  fewshot: 0
+
+  prompt_templates:
+    v_separated_en:
+      context: "Two audio clips come from the same moment of a conversation — one for the speaker, one for the listener."
+      speaker_audio_context: "The first audio is the speaker's speech."
+      listener_audio_context: "The second audio is the listener's response at the same moment."
+      speaker_text_format: 'Part of the speaker''s utterance: "{speaker_text}"'
+      listener_text_format: 'Listener''s words/response text: "{listener_text}"'
+      instruction: "Using both audios, classify the listener's backchannel type. Output exactly one of: NOBC / CONTINUER / ASSESSMENT."
+      system_prompt: "You are an expert at classifying a listener's backchannel response in spoken dialogue. Always reply with exactly one of NOBC / CONTINUER / ASSESSMENT."
+
+  lora:
+    enabled: true
+    target_preset: "both"
+    rank: 16
+    alpha: 32
+    dropout: 0.05
+    weights_path: null
+
+  label_parser:
+    fallback_label: null
+
+data:
+  data_path: "./data/swbd"
+  train_manifest: "splits/train"
+  val_manifest: "splits/valid"
+  test_manifest: "splits/test"
+  audio_input_mode: "separated"
+  speaker_audio_dir: "speaker_audios"
+  listener_audio_dir: "listener_audios"
+  batch_size: 1
+  validate_audio: false
+
+  # SWBD raw label: ALONE / BARGIN / CONTINUER / ASSESSMENT (BCKO 스타일).
+  # ALONE/BARGIN 은 NOBC 로 normalize 한다.
+  label_mapping:
+    "ALONE": "NOBC"
+    "BARGIN": "NOBC"
+    "CONTINUER": "CONTINUER"
+    "ASSESSMENT": "ASSESSMENT"
+
+  # SWBD 는 3-class 이므로 BCKO 4-class 기본값을 override 한다.
+  valid_labels:
+    - "NOBC"
+    - "CONTINUER"
+    - "ASSESSMENT"
+
+  crop_speaker_sec: 1.5
+  crop_listener_sec: 1.5
+
+training:
+  output_dir: "./outputs/qwen2_audio_v1_swbd_baseline"
+  num_epochs: 3
+  batch_size: 8
+  eval_batch_size: 4
+  gradient_accumulation_steps: 1
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler: "cosine"
+  fp16: true
+  bf16: false
+  logging_steps: 10
+  save_strategy: "epoch"
+  eval_strategy: "epoch"
+  save_total_limit: 3
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 2
+  gradient_checkpointing: true
+  seed: 42
+  balanced_sampling: true
+  # SWBD 는 전체 학습 세트가 크므로 epoch 당 샘플 수를 cap 한다.
+  balanced_num_samples_per_epoch: 900000
+  report_to: "none"
+  eval_after_training: true
+
+inference:
+  output_dir: "./outputs/qwen2_audio_v1_swbd_baseline/results"
+  save_format: "jsonl"
+  save_raw_output: true

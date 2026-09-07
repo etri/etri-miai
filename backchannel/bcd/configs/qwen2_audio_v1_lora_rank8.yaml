@@ -1,0 +1,90 @@
+# LoRA rank sensitivity (rank=8, alpha=16) — separated audio + speaker text.
+# Pair with qwen2_audio_v1.yaml (rank=16) for a rank-sensitivity comparison.
+
+qwen2_audio:
+  model_type: "instruct"
+  model_id: null
+  torch_dtype: "float16"
+  device_map: "cuda:0"
+  max_new_tokens: 5
+  do_sample: false
+  attn_implementation: "sdpa"
+
+  use_chat_template: true
+  use_speaker_text: true
+  prompt_version: "v_separated"
+  fewshot: 0
+
+  prompt_templates:
+    v_separated:
+      context: "두 오디오는 같은 시점의 대화 구간에서 분리한 화자/청자 음성이다."
+      speaker_audio_context: "첫 번째 오디오는 화자의 발화 구간이다."
+      listener_audio_context: "두 번째 오디오는 같은 시점의 청자 반응 구간이다."
+      speaker_text_format: '화자 발화 중 일부: "{speaker_text}"'
+      instruction: "두 오디오를 함께 참고하여 청자의 백채널 유형을 다음 중 하나만 출력하라: NOBC / CONTINUER / UNDERSTANDING / EMPATHY"
+      system_prompt: "당신은 음성 대화에서 청자의 백채널 반응 유형을 분류하는 전문가입니다. 반드시 NOBC, CONTINUER, UNDERSTANDING, EMPATHY 중 하나만 출력하십시오."
+
+  lora:
+    enabled: true
+    target_preset: "both"
+    rank: 8
+    alpha: 16
+    dropout: 0.05
+    weights_path: null
+
+  label_parser:
+    fallback_label: null
+
+data:
+  data_path: "./data/bcko"
+  train_manifest: "splits/train"
+  val_manifest: "splits/valid"
+  test_manifest: "splits/test"
+  audio_input_mode: "separated"
+  mixing_audio_dir: "mixing_audios"
+  speaker_audio_dir: "speaker_audios"
+  listener_audio_dir: "listener_audios"
+  batch_size: 1
+  validate_audio: false
+
+  label_mapping:
+    "ALONE": "NOBC"
+    "BARGIN": "NOBC"
+    "CONTINUER": "CONTINUER"
+    "UNDERSTANDING": "UNDERSTANDING"
+    "ASSESSMENT": "EMPATHY"
+    "AFFIRMATIVE": "EMPATHY"
+    "NEGATIVE_SURPRISE": "EMPATHY"
+    "POSITIVE_SURPRISE": "EMPATHY"
+    "REQUEST_CONFIRMATION": "EMPATHY"
+
+training:
+  output_dir: "./outputs/qwen2_audio_v1_lora_rank8"
+  num_epochs: 3
+  batch_size: 8
+  eval_batch_size: 4
+  gradient_accumulation_steps: 1
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler: "cosine"
+  fp16: true
+  bf16: false
+  logging_steps: 10
+  save_strategy: "epoch"
+  eval_strategy: "epoch"
+  save_total_limit: 3
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 2
+  gradient_checkpointing: true
+  seed: 42
+  balanced_sampling: true
+  report_to: "none"
+  eval_after_training: true
+
+inference:
+  output_dir: "./outputs/qwen2_audio_v1_lora_rank8/results"
+  save_format: "jsonl"
+  save_raw_output: true

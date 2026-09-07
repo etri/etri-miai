@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Experiment outputs (do not commit large binaries)
+outputs/
+logs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+mlruns/
+aim_repo/
+.aim/
+
+# Data (do not commit datasets)
+data/

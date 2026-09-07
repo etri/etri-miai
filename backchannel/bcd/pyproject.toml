@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bc_detection_qwen2"
+dynamic = ["version"]
+description = "Qwen2-Audio LoRA fine-tuning and inference for backchannel detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Yong-Seok Choi", email = "yseokchoi@etri.re.kr" },
+]
+keywords = ["backchannel", "detection", "qwen2-audio", "lora", "speech", "multimodal"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "transformers>=4.30.0",
+    "accelerate>=0.20.0",
+    "peft>=0.6.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "pandas>=2.0.0",
+    "pyyaml>=6.0",
+    "librosa>=0.10.0",
+    "soundfile>=0.12.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+# Aim experiment tracking is opt-in (config tracking.aim.enabled). The training
+# code soft-imports aim, so the base install must NOT require it.
+tracking = [
+    "aim==3.24.0",
+]
+# MLflow pyfunc packaging (optional; only needed for `mlflow_pyfunc.py`).
+mlflow = [
+    "mlflow>=2.9.0",
+]
+dev = [
+    "ruff>=0.1.0",
+    "black>=23.0.0",
+    "mypy>=1.5.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/bc_detection_qwen2"
+Repository = "https://github.com/yourusername/bc_detection_qwen2.git"
+Issues = "https://github.com/yourusername/bc_detection_qwen2/issues"
+
+[tool.hatch.build]
+packages = ["src/bc_detection"]
+
+[tool.hatch.version]
+path = "src/bc_detection/__init__.py"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+select = ["E", "W", "F", "I", "B", "C4", "UP"]
+ignore = ["E501", "B008", "C901"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.black]
+target-version = ['py310']
+line-length = 100
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

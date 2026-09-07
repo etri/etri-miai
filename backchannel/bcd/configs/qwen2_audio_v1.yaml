@@ -1,0 +1,108 @@
+# Qwen2-Audio Backchannel Detection — baseline (mixed audio + speaker text)
+#
+# 사전 준비:
+#   - data.data_path 아래에 splits/{train,valid,test} 매니페스트와
+#     mixing_audios/ 디렉토리를 준비한다 (README 참조).
+#   - training.output_dir 은 학습 결과(체크포인트/LoRA)를 저장할 경로.
+
+qwen2_audio:
+  # 모델 설정
+  model_type: "instruct"          # "base" 또는 "instruct"
+  model_id: null                  # null이면 model_type으로 자동 결정 (Qwen/Qwen2-Audio-7B[-Instruct])
+  torch_dtype: "float16"
+  # device_map 동작:
+  # - torchrun 멀티 GPU(DDP): adapter가 LOCAL_RANK를 감지해 자동으로 "cuda:{rank}" 지정
+  # - 단일 GPU: 아래 값 사용. "auto"는 model-parallel 시도이므로 "cuda:0" 권장
+  device_map: "cuda:0"
+  max_new_tokens: 5
+  do_sample: false
+  attn_implementation: "sdpa"     # "sdpa", "eager", "flash_attention_2"
+
+  # 프롬프트 설정
+  use_chat_template: true
+  use_speaker_text: true          # true: 화자 텍스트 포함 / false: 오디오만
+  prompt_version: "v1"            # 아래 prompt_templates 의 키와 매칭
+  fewshot: 0                      # >0 이면 support set 에서 fewshot 예시 추가
+
+  # 프롬프트 템플릿 (prompt_version 으로 선택)
+  prompt_templates:
+    v1:
+      context: "위 오디오는 대화 중 화자와 청자의 음성을 믹싱한 것이다."
+      speaker_text_format: '화자 발화 중 일부: "{speaker_text}"'
+      instruction: "청자의 백채널 유형을 다음 중 하나만 출력하라: NOBC / CONTINUER / UNDERSTANDING / EMPATHY"
+      system_prompt: "당신은 음성 대화에서 청자의 백채널 반응 유형을 분류하는 전문가입니다. 반드시 NOBC, CONTINUER, UNDERSTANDING, EMPATHY 중 하나만 출력하십시오."
+    v3:
+      context: "위 오디오는 대화 중 화자와 청자의 음성을 믹싱한 것이다."
+      speaker_text_format: '화자 발화 중 일부: "{speaker_text}"'
+      instruction: "청자의 백채널 유형을 아래 4가지 정의에 따라 분류한다.\n- CONTINUER: 청자가 화자의 말을 계속 듣고 있음을 나타내는 단순 반응\n- UNDERSTANDING: 청자가 화자의 말을 이해했음을 나타내는 반응\n- EMPATHY: 청자가 화자의 말에 감정적으로 공감하거나 평가·놀람·동의 등을 표현하는 반응\n- NOBC: 해당 구간에서 청자의 백채널 반응이 없거나, 화자의 발화에 끼어드는 경우\n청자의 백채널 유형을 다음 중 하나로 분류하여 출력하라: NOBC / CONTINUER / UNDERSTANDING / EMPATHY"
+      system_prompt: "당신은 음성 대화에서 청자의 백채널 반응 유형을 분류하는 전문가입니다.\n백채널이란 청자가 화자의 발화 중간에 보이는 짧은 반응 신호입니다.\n반드시 NOBC, CONTINUER, UNDERSTANDING, EMPATHY 중 하나만 출력하십시오."
+
+  # LoRA 설정
+  lora:
+    enabled: true
+    target_preset: "both"         # "audio_only" / "llm_only" / "both"
+    rank: 16
+    alpha: 32
+    dropout: 0.05
+    # 추론 시에만 사용: 학습된 LoRA adapter 경로 (예: ./outputs/qwen2_audio_v1/checkpoint-XXXX)
+    weights_path: null
+
+  label_parser:
+    fallback_label: null          # 파싱 실패 시 기본 레이블 (null 이면 "INVALID")
+
+data:
+  # 데이터 루트. 하위에 splits/, mixing_audios/ 가 존재해야 한다.
+  data_path: "./data/bcko"
+  train_manifest: "splits/train"
+  val_manifest: "splits/valid"
+  test_manifest: "splits/test"
+  mixing_audio_dir: "mixing_audios"
+  batch_size: 4                   # Qwen2-Audio 는 VRAM 사용량이 크므로 작게
+  validate_audio: false
+
+  # 원본 라벨 → 4-class 매핑
+  label_mapping:
+    "ALONE": "NOBC"
+    "BARGIN": "NOBC"
+    "CONTINUER": "CONTINUER"
+    "UNDERSTANDING": "UNDERSTANDING"
+    "ASSESSMENT": "EMPATHY"
+    "AFFIRMATIVE": "EMPATHY"
+    "NEGATIVE_SURPRISE": "EMPATHY"
+    "POSITIVE_SURPRISE": "EMPATHY"
+    "REQUEST_CONFIRMATION": "EMPATHY"
+
+training:
+  output_dir: "./outputs/qwen2_audio_v1"
+  num_epochs: 3
+  # effective batch = batch_size × num_gpus × gradient_accumulation_steps
+  batch_size: 8                   # per-device batch size
+  eval_batch_size: 2
+  gradient_accumulation_steps: 1
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler: "cosine"
+  fp16: true
+  bf16: false
+  logging_steps: 10
+  save_strategy: "epoch"
+  eval_strategy: "epoch"
+  save_total_limit: 3
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 2
+  gradient_checkpointing: true
+  seed: 42
+  balanced_sampling: false        # WeightedRandomSampler + ReseedableSampler
+  report_to: "none"               # "wandb", "tensorboard", "none"
+  eval_after_training: true
+  max_train_samples: null         # 디버깅 시 소수만 사용
+  max_val_samples: null
+
+inference:
+  output_dir: "./outputs/qwen2_audio_v1/results"
+  save_format: "jsonl"            # "jsonl", "csv"
+  save_raw_output: true
+  max_samples: null
