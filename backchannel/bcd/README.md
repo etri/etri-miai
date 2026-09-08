@@ -1,5 +1,7 @@
 # Qwen2-Audio Backchannel Detection
 
+[[Korean](./README.md)] [[English](./README.en.md)]
+
 Qwen2-Audio(7B) 기반 백채널(backchannel) 검출을 위한 학습·추론 코드입니다.
 Qwen2-Audio-7B-Instruct 에 LoRA 어댑터를 붙여 대화 중 청자(listener)의 반응 유형을 생성형(generative)으로 분류합니다.
 
