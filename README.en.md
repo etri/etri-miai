@@ -4,7 +4,7 @@
 
 ## Introduction
 This project was part of the 'Artificial Intelligence Research about Multi-modal Interactions for Empathetic Conversations with Humans.'  
-We focus on **Paraverbal analysis** to deeply understand human emotions and intentions and **Backchannel Prediction** research to enhance conversation engagement.
+We focus on **Paraverbal analysis** to deeply understand human emotions and intentions, **Backchannel Detection** to classify a listener's reaction during conversation, and **Backchannel Prediction** research to enhance conversation engagement.
 
 The full scope of research can be found at the following link: [[Project MIAI](https://github.com/keti-iiprc/Project-MIAI)]
 
@@ -14,6 +14,7 @@ The full scope of research can be found at the following link: [[Project MIAI](h
 |-----------------------|--------------------------------------|
 | Database             | - BACKSpeech [[link](./databases/BACKSpeech) <br> - BACKCast [[link](./databases/BACKCast)]]                         |
 | Paraverbal Analysis  | *will be updated soon.*                |
+| Backchannel Detection | - Backchannel Detection [[link](./backchannel/bcd)] |
 | Backchannel Prediction | - Backchannel Prediction [[link](./backchannel/bcp)] <br> - Streaming Backchannel Prediction [[link](./backchannel/streaming_bcp)] |
 
 

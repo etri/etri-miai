@@ -4,7 +4,7 @@
 
 ## Introduction
 이 프로젝트는 ‘인간과의 공감형 대화를 위한 멀티모달 상호작용 인공지능 연구’의 일환으로 수행되었습니다.  
-우리는 인간의 감정과 의도를 깊이 이해하기 위한 **준언어적 분석(Paraverbal analysis)** 과 대화 몰입도를 높이기 위한 **백채널 예측(Backchannel Prediction)** 연구에 중점을 두고 있습니다.
+우리는 인간의 감정과 의도를 깊이 이해하기 위한 **준언어적 분석(Paraverbal analysis)**, 대화 중 청자 반응을 분류하는 **백채널 검출(Backchannel Detection)**, 그리고 대화 몰입도를 높이기 위한 **백채널 예측(Backchannel Prediction)** 연구에 중점을 두고 있습니다.
 
 전체 연구 범위는 다음 링크에서 확인할 수 있습니다: [[Project MIAI](https://github.com/keti-iiprc/Project-MIAI)]
 
@@ -14,6 +14,7 @@
 |---|---|
 | Database | - BACKSpeech [[link](./databases/BACKSpeech)] <br> - BACKCast [[link](./databases/BACKCast)] |
 | Paraverbal Analysis | *곧 업데이트될 예정입니다.* |
+| Backchannel Detection | - Backchannel Detection [[link](./backchannel/bcd)] |
 | Backchannel Prediction | - Backchannel Prediction [[link](./backchannel/bcp)] <br> - Streaming Backchannel Prediction [[link](./backchannel/streaming_bcp)] |
 
 
